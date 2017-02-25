@@ -24,6 +24,10 @@
                 "1": {
                     "key": "F11",
                     "label": "F11"
+                },
+                "2": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -124,8 +128,8 @@
                     "label": "ISO#"
                 },
                 "2": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -175,8 +179,8 @@
                     "label": "P"
                 },
                 "1": {
-                    "key": "CONS:VOLUMEUP",
-                    "label": "VOL+"
+                    "key": "PAGEUP",
+                    "label": "PGUP"
                 },
                 "2": {
                     "key": "CONS:SCANNEXTTRACK",
@@ -196,8 +200,8 @@
                     "label": "F"
                 },
                 "1": {
-                    "key": "PAGEUP",
-                    "label": "PGUP"
+                    "key": "UP",
+                    "label": "\u2191"
                 },
                 "2": {
                     "key": "CONS:STOP",
@@ -217,8 +221,8 @@
                     "label": "W"
                 },
                 "1": {
-                    "key": "UP",
-                    "label": "\u2191"
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 },
                 "2": {
                     "key": "CONS:SCANPREVIOUSTRACK",
@@ -257,6 +261,10 @@
                 "0": {
                     "key": "TAB",
                     "label": "TAB"
+                },
+                "2": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -293,8 +301,8 @@
                     "label": "T"
                 },
                 "1": {
-                    "key": "BACKSPACE",
-                    "label": "BKSP"
+                    "key": "RIGHT",
+                    "label": "\u2192"
                 }
             }
         },
@@ -310,8 +318,8 @@
                     "label": "S"
                 },
                 "1": {
-                    "key": "RIGHT",
-                    "label": "\u2192"
+                    "key": "DOWN",
+                    "label": "\u2193"
                 },
                 "2": {
                     "key": "CONS:FASTFORWARD",
@@ -331,8 +339,8 @@
                     "label": "R"
                 },
                 "1": {
-                    "key": "DOWN",
-                    "label": "\u2193"
+                    "key": "LEFT",
+                    "label": "\u2190"
                 },
                 "2": {
                     "key": "CONS:PLAY",
@@ -352,8 +360,8 @@
                     "label": "N"
                 },
                 "1": {
-                    "key": "LEFT",
-                    "label": "\u2190"
+                    "key": "BACKSPACE",
+                    "label": "BKSP"
                 },
                 "2": {
                     "key": "CONS:REWIND",
@@ -371,6 +379,10 @@
                 "0": {
                     "key": "BACKSLASH",
                     "label": "\\"
+                },
+                "2": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -382,8 +394,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
@@ -395,8 +407,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -442,8 +454,8 @@
                     "label": "V"
                 },
                 "1": {
-                    "key": "CONS:VOLUMEDOWN",
-                    "label": "VOL-"
+                    "key": "PAGEDOWN",
+                    "label": "PGDN"
                 }
             }
         },
@@ -476,8 +488,8 @@
                     "label": "X"
                 },
                 "1": {
-                    "key": "CONS:MUTE",
-                    "label": "MUTE"
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 },
                 "2": {
                     "key": "CONS:PAUSE",
@@ -646,6 +658,10 @@
                 "1": {
                     "key": "F12",
                     "label": "F12"
+                },
+                "2": {
+                    "key": "#:toggleKbdProtocol()",
+                    "label": "6\/N-KRO"
                 }
             }
         },
@@ -764,6 +780,10 @@
                 "0": {
                     "key": "LCK1",
                     "label": "LOCK-1"
+                },
+                "2": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -895,6 +915,10 @@
                 "0": {
                     "key": "ESCAPE",
                     "label": "ESC"
+                },
+                "2": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -1013,6 +1037,10 @@
                 "0": {
                     "key": "MINUS",
                     "label": "-"
+                },
+                "2": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -1024,8 +1052,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN1",
-                    "label": "\u01921"
+                    "key": "FUN2",
+                    "label": "\u01922"
                 }
             }
         },
@@ -1037,8 +1065,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
