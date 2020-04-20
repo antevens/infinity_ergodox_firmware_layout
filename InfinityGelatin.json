@@ -164,8 +164,8 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "T",
-          "label": "T"
+          "key": "G",
+          "label": "G"
         }
       }
     },
@@ -1078,7 +1078,12 @@
       "y": 14,
       "w": 6,
       "h": 4,
-      "layers": {}
+      "layers": {
+        "0": {
+          "key": "LSHIFT",
+          "label": "L⇑"
+        }
+      }
     },
     {
       "board": 1,
