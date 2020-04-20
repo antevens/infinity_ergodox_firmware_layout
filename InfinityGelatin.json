@@ -18,8 +18,8 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "\\",
-          "label": "\\"
+          "key": "RSHIFT",
+          "label": "R⇑"
         },
         "1": {
           "key": "F11",
@@ -179,8 +179,8 @@
           "label": "P"
         },
         "1": {
-          "key": "PAGEUP",
-          "label": "PGUP"
+          "key": "HOME",
+          "label": "HOME"
         },
         "2": {
           "key": "CONS:SCAN NEXT TRACK",
@@ -221,8 +221,8 @@
           "label": "W"
         },
         "1": {
-          "key": "#:U\"Volume Up\" + CONS\"Volume Up\"",
-          "label": "VOL+"
+          "key": "PAGEUP",
+          "label": "PGUP"
         },
         "2": {
           "key": "CONS:SCAN PREVIOUS TRACK",
@@ -454,8 +454,8 @@
           "label": "V"
         },
         "1": {
-          "key": "PAGEDOWN",
-          "label": "PGDN"
+          "key": "END",
+          "label": "END"
         }
       }
     },
@@ -488,8 +488,8 @@
           "label": "X"
         },
         "1": {
-          "key": "#:U\"Volume Down\" + CONS\"Volume Down\"",
-          "label": "VOL-"
+          "key": "PAGEDOWN",
+          "label": "PGDN"
         },
         "2": {
           "key": "CONS:PAUSE",
@@ -892,8 +892,8 @@
           "label": "'"
         },
         "1": {
-          "key": "KEYPAD PLUS",
-          "label": "P+"
+          "key": "F11",
+          "label": "F11"
         },
         "2": {
           "key": "KEYPAD PLUS",
@@ -1014,8 +1014,8 @@
           "label": "O"
         },
         "1": {
-          "key": "P=",
-          "label": "P="
+          "key": "F12",
+          "label": "F12"
         },
         "2": {
           "key": "P=",
@@ -1261,8 +1261,8 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "]",
-          "label": "]"
+          "key": "`",
+          "label": "`"
         },
         "1": {
           "key": "P0",
@@ -1349,4 +1349,4 @@
   "animations": {},
   "macros": {},
   "canned": {}
-}:
+}
