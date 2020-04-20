@@ -1,16 +1,18 @@
 {
   "header": {
-    "Name": "MDErgo1",
+    "Name": "Gelatin ErgoDox Infinity",
+    "Variant": "standard",
     "Layout": "Default",
     "Base": "Blank",
     "Version": "0.1",
-    "Author": "HaaTa (Jacob Alexander) 2015",
+    "Author": "Antonia Stevens a@antevens.com",
     "KLL": "0.3c",
-    "Date": "2015-09-12",
-    "Generator": "KIICONF 0.2"
+    "Date": "2020-04-19",
+    "Generator": "Hand"
   },
   "matrix": [
     {
+      "board": 0,
       "code": "0x02",
       "x": 26,
       "y": 2,
@@ -18,20 +20,13 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "RSHIFT",
-          "label": "R⇑"
-        },
-        "1": {
-          "key": "F11",
-          "label": "F11"
-        },
-        "2": {
-          "key": "#:flashMode()",
-          "label": "FLASH"
+          "key": "RALT",
+          "label": "RALT"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x03",
       "x": 22,
       "y": 2,
@@ -49,6 +44,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x04",
       "x": 18,
       "y": 1,
@@ -66,6 +62,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x05",
       "x": 14,
       "y": 0,
@@ -83,6 +80,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x06",
       "x": 10,
       "y": 1,
@@ -100,6 +98,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x07",
       "x": 6,
       "y": 2,
@@ -117,6 +116,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x08",
       "x": 0,
       "y": 2,
@@ -127,13 +127,18 @@
           "key": "LALT",
           "label": "LALT"
         },
+        "1": {
+          "key": "F11",
+          "label": "F11"
+        },
         "2": {
-          "key": "#:ledControl( 5, 0, 0 )",
-          "label": "LED OFF"
+          "key": "#:flashMode()",
+          "label": "FLASH"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x0B",
       "x": 26,
       "y": 6,
@@ -143,10 +148,15 @@
         "0": {
           "key": "[",
           "label": "["
+        },
+        "1": {
+          "key": "#:U\"Mute\" + CONS\"Mute\"",
+          "label": "MUT"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x0C",
       "x": 22,
       "y": 6,
@@ -154,20 +164,13 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "G",
-          "label": "G"
-        },
-        "1": {
-          "key": "#:U\"Mute\" + CONS\"Mute\"",
-          "label": "MUT"
-        },
-        "2": {
-          "key": "SYS:POWER DOWN",
-          "label": "POWER"
+          "key": "T",
+          "label": "T"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x0D",
       "x": 18,
       "y": 5,
@@ -179,16 +182,13 @@
           "label": "P"
         },
         "1": {
-          "key": "HOME",
-          "label": "HOME"
-        },
-        "2": {
-          "key": "CONS:SCAN NEXT TRACK",
-          "label": "NEXT"
+          "key": "#:U\"Volume Up\" + CONS\"Volume Up\"",
+          "label": "VOL+"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x0E",
       "x": 14,
       "y": 4,
@@ -196,20 +196,17 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "F",
-          "label": "F"
+          "key": "E",
+          "label": "E"
         },
         "1": {
           "key": "UP",
           "label": "↑"
-        },
-        "2": {
-          "key": "CONS:STOP",
-          "label": "STOP"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x0F",
       "x": 10,
       "y": 5,
@@ -223,14 +220,11 @@
         "1": {
           "key": "PAGEUP",
           "label": "PGUP"
-        },
-        "2": {
-          "key": "CONS:SCAN PREVIOUS TRACK",
-          "label": "PREV"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x10",
       "x": 6,
       "y": 6,
@@ -240,18 +234,11 @@
         "0": {
           "key": "Q",
           "label": "Q"
-        },
-        "1": {
-          "key": "HOME",
-          "label": "HOME"
-        },
-        "2": {
-          "key": "CONS:EJECT",
-          "label": "EJECT"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x11",
       "x": 0,
       "y": 6,
@@ -261,14 +248,11 @@
         "0": {
           "key": "TAB",
           "label": "TAB"
-        },
-        "2": {
-          "key": "#:ledControl( 4, 15, 0 )",
-          "label": "LED+"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x15",
       "x": 22,
       "y": 10,
@@ -280,16 +264,13 @@
           "label": "D"
         },
         "1": {
-          "key": "DELETE",
-          "label": "DEL"
-        },
-        "2": {
-          "key": "SYS:WAKE UP",
-          "label": "WAKEUP"
+          "key": "END",
+          "label": "END"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x16",
       "x": 18,
       "y": 9,
@@ -307,6 +288,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x17",
       "x": 14,
       "y": 8,
@@ -320,14 +302,11 @@
         "1": {
           "key": "DOWN",
           "label": "↓"
-        },
-        "2": {
-          "key": "CONS:FAST FORWARD",
-          "label": "FF"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x18",
       "x": 10,
       "y": 9,
@@ -341,14 +320,11 @@
         "1": {
           "key": "LEFT",
           "label": "←"
-        },
-        "2": {
-          "key": "CONS:PLAY",
-          "label": "PLAY"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x19",
       "x": 6,
       "y": 10,
@@ -360,16 +336,13 @@
           "label": "N"
         },
         "1": {
-          "key": "BACKSPACE",
-          "label": "BKSP"
-        },
-        "2": {
-          "key": "CONS:REWIND",
-          "label": "RW"
+          "key": "HOME",
+          "label": "HOME"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x1A",
       "x": 0,
       "y": 10,
@@ -379,27 +352,20 @@
         "0": {
           "key": "ISO/",
           "label": "ISO/"
-        },
-        "2": {
-          "key": "#:ledControl( 3, 15, 0 )",
-          "label": "LED-"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x1B",
       "x": 30,
       "y": 18,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "LGUI",
-          "label": "LGUI"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 0,
       "code": "0x1C",
       "x": 26,
       "y": 18,
@@ -413,6 +379,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x1D",
       "x": 26,
       "y": 12,
@@ -422,10 +389,15 @@
         "0": {
           "key": ";",
           "label": ";"
+        },
+        "1": {
+          "key": "CONS:STOP",
+          "label": "STOP"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x1E",
       "x": 22,
       "y": 14,
@@ -436,13 +408,14 @@
           "key": "B",
           "label": "B"
         },
-        "2": {
-          "key": "SYS:SLEEP",
-          "label": "SLEEP"
+        "1": {
+          "key": "CONS:SCAN NEXT TRACK",
+          "label": "NEXT"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x1F",
       "x": 18,
       "y": 13,
@@ -454,12 +427,13 @@
           "label": "V"
         },
         "1": {
-          "key": "END",
-          "label": "END"
+          "key": "#:U\"Volume Down\" + CONS\"Volume Down\"",
+          "label": "VOL-"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x20",
       "x": 14,
       "y": 12,
@@ -469,14 +443,11 @@
         "0": {
           "key": "C",
           "label": "C"
-        },
-        "1": {
-          "key": "PAGEDOWN",
-          "label": "PGDN"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x21",
       "x": 10,
       "y": 13,
@@ -490,14 +461,11 @@
         "1": {
           "key": "PAGEDOWN",
           "label": "PGDN"
-        },
-        "2": {
-          "key": "CONS:PAUSE",
-          "label": "PAUSE"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x22",
       "x": 6,
       "y": 14,
@@ -507,40 +475,29 @@
         "0": {
           "key": "Z",
           "label": "Z"
-        },
-        "1": {
-          "key": "END",
-          "label": "END"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x23",
       "x": 0,
       "y": 14,
       "w": 6,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "LCTRL",
-          "label": "LCTRL"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 0,
       "code": "0x24",
       "x": 30,
       "y": 22,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "RALT",
-          "label": "RALT"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 0,
       "code": "0x25",
       "x": 30,
       "y": 26,
@@ -554,6 +511,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x26",
       "x": 26,
       "y": 22,
@@ -567,6 +525,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x27",
       "x": 22,
       "y": 22,
@@ -580,6 +539,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x28",
       "x": 18,
       "y": 17,
@@ -593,19 +553,21 @@
       }
     },
     {
+      "board": 0,
       "code": "0x29",
       "x": 14,
       "y": 16,
       "w": 4,
       "h": 4,
       "layers": {
-        "0": {
-          "key": ";",
-          "label": ";"
+        "1": {
+          "key": "CONS:SCAN PREVIOUS TRACK",
+          "label": "PREV"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x2A",
       "x": 10,
       "y": 17,
@@ -619,6 +581,7 @@
       }
     },
     {
+      "board": 0,
       "code": "0x2B",
       "x": 6,
       "y": 18,
@@ -626,12 +589,13 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "LGUI",
-          "label": "LGUI"
+          "key": "RGUI",
+          "label": "RGUI"
         }
       }
     },
     {
+      "board": 0,
       "code": "0x2C",
       "x": 2,
       "y": 18,
@@ -645,6 +609,7 @@
       }
     },
     {
+      "board": 1,
       "code": "0x02",
       "x": 42,
       "y": 2,
@@ -652,20 +617,17 @@
       "h": 4,
       "layers": {
         "0": {
-          "key": "NEXT LAYER",
-          "label": "NEXT-ƒ"
+          "key": "RALT",
+          "label": "RALT"
         },
         "1": {
-          "key": "F12",
-          "label": "F12"
-        },
-        "2": {
-          "key": "#:toggleKbdProtocol()",
-          "label": "6/N-KRO"
+          "key": "PRINTSCREEN",
+          "label": "PRSC"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x03",
       "x": 46,
       "y": 2,
@@ -679,14 +641,11 @@
         "1": {
           "key": "F6",
           "label": "F6"
-        },
-        "2": {
-          "key": "PRINTSCREEN",
-          "label": "PRSC"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x04",
       "x": 50,
       "y": 1,
@@ -700,14 +659,11 @@
         "1": {
           "key": "F7",
           "label": "F7"
-        },
-        "2": {
-          "key": "NUMLOCK",
-          "label": "NMLK"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x05",
       "x": 54,
       "y": 0,
@@ -721,14 +677,11 @@
         "1": {
           "key": "F8",
           "label": "F8"
-        },
-        "2": {
-          "key": "P/",
-          "label": "P/"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x06",
       "x": 58,
       "y": 1,
@@ -742,14 +695,11 @@
         "1": {
           "key": "F9",
           "label": "F9"
-        },
-        "2": {
-          "key": "P*",
-          "label": "P*"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x07",
       "x": 62,
       "y": 2,
@@ -763,27 +713,25 @@
         "1": {
           "key": "F10",
           "label": "F10"
-        },
-        "2": {
-          "key": "P-",
-          "label": "P-"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x08",
       "x": 66,
       "y": 2,
       "w": 6,
       "h": 4,
       "layers": {
-        "2": {
-          "key": "#:ledControl( 5, 0, 0 )",
-          "label": "LED OFF"
+        "1": {
+          "key": "F12",
+          "label": "F12"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x0B",
       "x": 42,
       "y": 6,
@@ -793,10 +741,15 @@
         "0": {
           "key": "]",
           "label": "]"
+        },
+        "1": {
+          "key": "SCROLLLOCK",
+          "label": "SCLK"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x0C",
       "x": 46,
       "y": 6,
@@ -808,16 +761,13 @@
           "label": "J"
         },
         "1": {
-          "key": "SCROLLLOCK",
-          "label": "SCLK"
-        },
-        "2": {
-          "key": "SCROLLLOCK",
-          "label": "SCLK"
+          "key": "INSERT",
+          "label": "INS"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x0D",
       "x": 50,
       "y": 5,
@@ -831,14 +781,11 @@
         "1": {
           "key": "P7",
           "label": "P7"
-        },
-        "2": {
-          "key": "P7",
-          "label": "P7"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x0E",
       "x": 54,
       "y": 4,
@@ -852,14 +799,11 @@
         "1": {
           "key": "P8",
           "label": "P8"
-        },
-        "2": {
-          "key": "P8",
-          "label": "P8"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x0F",
       "x": 58,
       "y": 5,
@@ -873,14 +817,11 @@
         "1": {
           "key": "P9",
           "label": "P9"
-        },
-        "2": {
-          "key": "P9",
-          "label": "P9"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x10",
       "x": 62,
       "y": 6,
@@ -890,18 +831,11 @@
         "0": {
           "key": "'",
           "label": "'"
-        },
-        "1": {
-          "key": "F11",
-          "label": "F11"
-        },
-        "2": {
-          "key": "KEYPAD PLUS",
-          "label": "P+"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x11",
       "x": 66,
       "y": 6,
@@ -911,14 +845,11 @@
         "0": {
           "key": "\\",
           "label": "\\"
-        },
-        "2": {
-          "key": "#:ledControl( 4, 15, 0 )",
-          "label": "LED+"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x15",
       "x": 46,
       "y": 10,
@@ -932,14 +863,11 @@
         "1": {
           "key": "PAUSE",
           "label": "PAUSE"
-        },
-        "2": {
-          "key": "PAUSE",
-          "label": "PAUSE"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x16",
       "x": 50,
       "y": 9,
@@ -953,14 +881,11 @@
         "1": {
           "key": "P4",
           "label": "P4"
-        },
-        "2": {
-          "key": "P4",
-          "label": "P4"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x17",
       "x": 54,
       "y": 8,
@@ -974,14 +899,11 @@
         "1": {
           "key": "P5",
           "label": "P5"
-        },
-        "2": {
-          "key": "P5",
-          "label": "P5"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x18",
       "x": 58,
       "y": 9,
@@ -995,14 +917,11 @@
         "1": {
           "key": "P6",
           "label": "P6"
-        },
-        "2": {
-          "key": "P6",
-          "label": "P6"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x19",
       "x": 62,
       "y": 10,
@@ -1012,18 +931,11 @@
         "0": {
           "key": "O",
           "label": "O"
-        },
-        "1": {
-          "key": "F12",
-          "label": "F12"
-        },
-        "2": {
-          "key": "P=",
-          "label": "P="
         }
       }
     },
     {
+      "board": 1,
       "code": "0x1A",
       "x": 66,
       "y": 10,
@@ -1033,27 +945,20 @@
         "0": {
           "key": "-",
           "label": "-"
-        },
-        "2": {
-          "key": "#:ledControl( 3, 15, 0 )",
-          "label": "LED-"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x1B",
       "x": 38,
       "y": 18,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "RGUI",
-          "label": "RGUI"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 1,
       "code": "0x1C",
       "x": 42,
       "y": 18,
@@ -1067,6 +972,7 @@
       }
     },
     {
+      "board": 1,
       "code": "0x1D",
       "x": 42,
       "y": 12,
@@ -1080,6 +986,7 @@
       }
     },
     {
+      "board": 1,
       "code": "0x1E",
       "x": 46,
       "y": 14,
@@ -1091,16 +998,13 @@
           "label": "K"
         },
         "1": {
-          "key": "END",
-          "label": "END"
-        },
-        "2": {
-          "key": "END",
-          "label": "END"
+          "key": "P0",
+          "label": "P0"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x1F",
       "x": 50,
       "y": 13,
@@ -1114,14 +1018,11 @@
         "1": {
           "key": "P1",
           "label": "P1"
-        },
-        "2": {
-          "key": "P1",
-          "label": "P1"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x20",
       "x": 54,
       "y": 12,
@@ -1135,14 +1036,11 @@
         "1": {
           "key": "P2",
           "label": "P2"
-        },
-        "2": {
-          "key": "P2",
-          "label": "P2"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x21",
       "x": 58,
       "y": 13,
@@ -1156,14 +1054,11 @@
         "1": {
           "key": "P3",
           "label": "P3"
-        },
-        "2": {
-          "key": "P3",
-          "label": "P3"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x22",
       "x": 62,
       "y": 14,
@@ -1173,44 +1068,29 @@
         "0": {
           "key": "/",
           "label": "/"
-        },
-        "1": {
-          "key": "PENTER",
-          "label": "P↵"
-        },
-        "2": {
-          "key": "PENTER",
-          "label": "P↵"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x23",
       "x": 66,
       "y": 14,
       "w": 6,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "RCTRL",
-          "label": "RCTRL"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 1,
       "code": "0x24",
       "x": 38,
       "y": 22,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "HOME",
-          "label": "HOME"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 1,
       "code": "0x25",
       "x": 38,
       "y": 26,
@@ -1224,6 +1104,7 @@
       }
     },
     {
+      "board": 1,
       "code": "0x26",
       "x": 42,
       "y": 22,
@@ -1237,6 +1118,7 @@
       }
     },
     {
+      "board": 1,
       "code": "0x27",
       "x": 46,
       "y": 22,
@@ -1246,48 +1128,29 @@
         "0": {
           "key": "SPACE",
           "label": "[ ]"
-        },
-        "2": {
-          "key": "P0",
-          "label": "P0"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x28",
       "x": 50,
       "y": 17,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "`",
-          "label": "`"
-        },
-        "1": {
-          "key": "P0",
-          "label": "P0"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 1,
       "code": "0x29",
       "x": 54,
       "y": 16,
       "w": 4,
       "h": 4,
-      "layers": {
-        "0": {
-          "key": "=",
-          "label": "="
-        },
-        "1": {
-          "key": "DELETE",
-          "label": "DEL"
-        }
-      }
+      "layers": {}
     },
     {
+      "board": 1,
       "code": "0x2A",
       "x": 58,
       "y": 17,
@@ -1297,18 +1160,11 @@
         "0": {
           "key": "RALT",
           "label": "RALT"
-        },
-        "1": {
-          "key": "P.",
-          "label": "P."
-        },
-        "2": {
-          "key": "P.",
-          "label": "P."
         }
       }
     },
     {
+      "board": 1,
       "code": "0x2B",
       "x": 62,
       "y": 18,
@@ -1318,18 +1174,11 @@
         "0": {
           "key": "RGUI",
           "label": "RGUI"
-        },
-        "1": {
-          "key": "P,",
-          "label": "P,"
-        },
-        "2": {
-          "key": "P,",
-          "label": "P,"
         }
       }
     },
     {
+      "board": 1,
       "code": "0x2C",
       "x": 66,
       "y": 18,
@@ -1343,10 +1192,17 @@
       }
     }
   ],
+  "animations": {
+    "all_on": {
+      "settings": "start, pfunc:interp",
+      "frames": [
+        "P[c:0%](255), P[c:100%](255)"
+      ]
+    }
+  },
   "defines": [],
   "leds": [],
   "custom": {},
-  "animations": {},
   "macros": {},
   "canned": {}
 }
